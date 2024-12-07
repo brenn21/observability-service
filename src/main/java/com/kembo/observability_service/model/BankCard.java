@@ -8,8 +8,6 @@ import lombok.Setter;
 import java.math.BigDecimal;
 
 @Entity
-@Getter
-@Setter
 @Table(name = "BANK_CARD")
 public class BankCard {
     @Id
